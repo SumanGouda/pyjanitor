@@ -3,8 +3,8 @@
 ## [Unreleased]
 
 -   [ENH] Standardize diagnostic error message formatting in `check` utility. - Issue #1718 @SumanGouda
-- [DEP] Deprecate `df_columns` and `right_columns` parameters in `conditional_join`. - Issue #1712 @sumangouda
-- [DOC] Add documentation explaining when cumulative-event aggregation is preferable to range join aggregations. - Issue #1702 @sumangouda
+-   [DEP] Deprecate `df_columns` and `right_columns` parameters in `conditional_join`. - Issue #1712 @sumangouda
+-   [DOC] Add documentation explaining when cumulative-event aggregation is preferable to range join aggregations. - Issue #1702 @sumangouda
 -   [ENH] Avoid materializing all unequal pairs in `conditional_join` with
     `keep="first"` or `keep="last"`. - Issue #1651, PR #1681 @tunglambk
 -   [PERF] Reduce peak memory in `_build_indexer_reorder_contents` for wide frames (reps >= 8) using single NumPy allocation; tall frames with few repetitions retain the original reshape path. - Issue #1655 @Anupam2400
